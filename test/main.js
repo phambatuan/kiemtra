@@ -2,13 +2,16 @@ let a  = parseInt(prompt("mời bạn nhập số a"));
 let b = parseInt(prompt("mời bạn nhập số b"));
 
 let n  = parseInt(prompt("mời bạn nhập số dongf n"));
-for(i = 1;i<=n;++i)
-{
-  for(j=1;j<=i;j++){
-    document.write("*");
-  }
-  document.write("<br/>");
-  }
+function numberOneTriangle(n) {
+    for(i = 1;i<=n;++i){
+        for(j=1;j<=i;j++){
+        document.write("*");
+        }
+        document.write("<br/>");
+        }
+}
+numberOneTriangle(n);
+
 
 
 
